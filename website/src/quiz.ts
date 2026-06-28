@@ -1,5 +1,7 @@
 import { questionBank, config, state } from "./state.js"
 import {renderQuestionScreen, updateQuestion} from "./ui/quizScreen.js";
+import {renderFailScreen} from "./ui/failScreen.js";
+import {renderPassScreen} from "./ui/passScreen.js";
 
 export function initializeQuiz(): void {
     const shuffledQuestions = [...questionBank];
@@ -22,7 +24,7 @@ export function initializeQuiz(): void {
     state.currentQuestionIndex = 0;
     state.submitted = false
 
-    console.log("Quiz initialised:", state)
+    //console.log("Quiz initialised:")
 
     renderQuestionScreen();
     updateQuestion()
@@ -51,13 +53,13 @@ function submitAnswers(): void {
             state.score++
         }
     }
-    console.log("Quiz submitted", state);
+    //console.log("Quiz submitted");
 
     const target = config.questionCount * config.passMark / 100
     if (state.score >= target) {
-        console.log("You Passed");
+        renderPassScreen();
     }
     else {
-        console.log("You failed!!")
+        renderFailScreen();
     }
 }

@@ -16,9 +16,9 @@
         "topic": "Fuel",
         "question": "Why is nuclear fuel considered to be extremely energy dense?",
         "answers": [
-            "Its high density allows it to store large amounts of thermal energy.",
-            "It burns at a much higher temperature than fossil fuels.",
-            "It contains a large amount of chemical energy in each fuel pellet.",
+            "Enrichment concentrates the fissile material so that each pellet contains a much higher proportion of uranium-235 than natural uranium.",
+            "The ceramic form of uranium dioxide is able to store and release thermal energy far more efficiently than carbon-based fuels.",
+            "It contains a large amount of chemical energy released when uranium reacts with the coolant at high temperature.",
             "A small mass of fuel releases a very large amount of energy through nuclear reactions."
         ],
         "correct": 3
@@ -40,10 +40,10 @@
         "topic": "Fission",
         "question": "What particle must interact with a uranium-235 nucleus to initiate nuclear fission?",
         "answers": [
-            "A proton",
-            "A gamma photon",
+            "A fast neutron produced by a previous fission event.",
+            "A thermal neutron that has been slowed down by the moderator.",
             "A neutron",
-            "An electron"
+            "An alpha particle emitted by a neighbouring nucleus."
         ],
         "correct": 2
     },
@@ -53,9 +53,9 @@
         "question": "Why is energy released during a nuclear fission event?",
         "answers": [
             "The fission products have less total mass than the original nucleus with the missing mass converted into energy.",
-            "The uranium atoms undergo chemical combustion with oxygen.",
-            "The neutrons produced contain more kinetic energy than the original nucleus.",
-            "The nucleus absorbs energy from the surrounding coolant before splitting."
+            "The strong nuclear force does work as the nucleus splits causing the fragments to accelerate apart.",
+            "The neutrons produced carry away kinetic energy that was stored as binding energy in the original nucleus.",
+            "The electrostatic repulsion between the protons in the nucleus releases the energy stored in the electric field."
         ],
         "correct": 0
     },
@@ -64,10 +64,10 @@
         "topic": "Fission",
         "question": "Why is a nuclear chain reaction able to continue after a fission event?",
         "answers": [
-            "The fuel becomes hotter causing neighbouring nuclei to split automatically.",
+            "The heat released raises the temperature of the fuel sufficiently to cause spontaneous fission in neighbouring nuclei.",
             "Each fission event releases neutrons that can trigger further fission events.",
-            "Gamma rays produced during fission directly split nearby nuclei.",
-            "The coolant transfers enough heat to surrounding fuel to sustain fission."
+            "Gamma rays produced during fission carry enough energy to split nearby uranium nuclei directly.",
+            "The moderator absorbs energy from the fission fragments and transfers it back to the fuel to sustain the reaction."
         ],
         "correct": 1
     },
@@ -76,10 +76,10 @@
         "topic": "Reactor",
         "question": "What is the primary purpose of the reactor core?",
         "answers": [
-            "To convert steam directly into electricity.",
+            "To moderate neutron energies and maintain criticality through controlled coolant flow.",
             "To generate heat through controlled nuclear fission.",
-            "To store spent nuclear fuel safely after use.",
-            "To cool the reactor using circulating water."
+            "To transfer heat from the fuel assemblies to the primary coolant circuit.",
+            "To contain the fuel and prevent radioactive fission products from entering the coolant."
         ],
         "correct": 1
     },
@@ -88,10 +88,10 @@
         "topic": "Reactor",
         "question": "Why are the primary and secondary water systems kept separate in a pressurised water reactor?",
         "answers": [
-            "To allow the reactor to operate at two different pressures.",
-            "To improve the efficiency of the steam turbine.",
+            "To allow the secondary circuit to operate at lower pressure so that the water boils and produces steam.",
+            "To improve the efficiency of the steam turbine by maintaining a precise secondary circuit temperature.",
             "To prevent radioactive primary coolant from reaching the turbine and other plant equipment.",
-            "To reduce the amount of uranium fuel required."
+            "To reduce thermal losses by minimising direct contact between the two water circuits."
         ],
         "correct": 2
     },
@@ -112,10 +112,10 @@
         "topic": "Heat",
         "question": "What is the primary purpose of the reactor coolant?",
         "answers": [
-            "To slow down neutrons so that fission can occur.",
+            "To moderate neutron energies so that they are more likely to cause fission in uranium-235.",
             "To transfer heat away from the reactor core.",
-            "To generate electricity directly from the reactor core.",
-            "To remove radioactive waste products from the fuel."
+            "To dissolve and carry away gaseous fission products that accumulate in the fuel.",
+            "To maintain the fuel cladding below its melting point by absorbing heat from the surface of the fuel rods."
         ],
         "correct": 1
     },
@@ -124,10 +124,10 @@
         "topic": "Heat",
         "question": "What is the purpose of the steam generator in a pressurised water reactor?",
         "answers": [
-            "To increase the pressure of the reactor coolant.",
+            "To increase the pressure of the reactor coolant so that it remains liquid at operating temperature.",
             "To transfer heat from the primary coolant to a separate water circuit to produce steam.",
-            "To generate electricity directly from the reactor coolant.",
-            "To remove radioactive particles from the primary coolant."
+            "To condense steam back into water after it has passed through the turbine.",
+            "To filter radioactive particles from the primary coolant before it returns to the reactor core."
         ],
         "correct": 1
     },
@@ -136,9 +136,9 @@
         "topic": "Heat",
         "question": "Why must the reactor continue to be cooled even after it has been shut down?",
         "answers": [
-            "Residual steam pressure continues to increase indefinitely.",
-            "The fuel continues to undergo uncontrolled fission.",
-            "The reactor vessel must remain below room temperature.",
+            "The control rods absorb neutrons but do not immediately stop all thermal energy production in the coolant.",
+            "The fuel continues to undergo uncontrolled fission at a reduced rate after shutdown.",
+            "The reactor vessel expands when hot and must be cooled slowly to prevent structural damage.",
             "Radioactive decay of fission products continues to produce heat."
         ],
         "correct": 3
@@ -148,7 +148,7 @@
         "topic": "Electricity",
         "question": "What device converts the heat from the reactor into steam?",
         "answers": [
-            "The condenser.",
+            "The pressuriser.",
             "The reactor pressure vessel.",
             "The steam generator.",
             "The cooling tower."
@@ -160,10 +160,10 @@
         "topic": "Electricity",
         "question": "What is the function of the turbine in a nuclear power station?",
         "answers": [
-            "To convert mechanical energy into electrical energy.",
-            "To transfer heat from the reactor to the coolant.",
+            "To compress the secondary coolant to increase the efficiency of heat transfer from the steam generator.",
+            "To transfer heat from the reactor to the secondary water circuit.",
             "To convert the energy of high-pressure steam into rotational mechanical energy.",
-            "To cool the steam before it enters the generator."
+            "To condense exhaust steam back into feedwater after it has done work."
         ],
         "correct": 2
     },
@@ -185,9 +185,9 @@
         "question": "Why is spent nuclear fuel significantly more radioactive than fresh fuel?",
         "answers": [
             "It contains large quantities of radioactive fission products formed during reactor operation.",
-            "It absorbs radiation from the reactor vessel over time.",
-            "The uranium atoms become naturally more unstable as they age.",
-            "It contains a much higher concentration of uranium-235 than fresh fuel."
+            "Prolonged neutron bombardment causes the zircaloy cladding to become highly activated.",
+            "The remaining uranium-235 becomes more concentrated and therefore more radioactive.",
+            "It contains a much higher concentration of uranium-238 decay products than fresh fuel."
         ],
         "correct": 0
     },
@@ -196,10 +196,10 @@
         "topic": "Radiation",
         "question": "How can radioactive materials cause damage to living tissue?",
         "answers": [
-            "They increase body temperature until cells are destroyed.",
+            "They disrupt the electrical signals between nerve cells causing them to malfunction.",
             "They emit ionising radiation that damages or destroys living cells.",
-            "They react chemically with blood to produce toxic compounds.",
-            "They absorb oxygen from surrounding tissues."
+            "They react with water in cells to produce hydrogen peroxide which destroys cell membranes.",
+            "They replace stable atoms in biological molecules making those molecules chemically reactive."
         ],
         "correct": 1
     },
@@ -220,10 +220,10 @@
         "topic": "Waste",
         "question": "What happens to nuclear fuel after it has been used in the reactor?",
         "answers": [
-            "It is immediately buried underground in a geological repository.",
+            "It is transferred directly to a reprocessing plant where useful isotopes are separated and recycled.",
             "It is chemically recycled into fresh uranium fuel on site.",
             "It becomes spent fuel and must be stored safely while its radioactivity decreases.",
-            "It is melted down and reused in the reactor without further processing."
+            "It is sealed inside the containment building and monitored in place."
         ],
         "correct": 2
     },
@@ -232,10 +232,10 @@
         "topic": "Waste",
         "question": "How is high-level radioactive waste stored once it has been removed from the reactor?",
         "answers": [
-            "It is pumped into underground concrete chambers immediately after removal.",
+            "It is initially stored in water-filled pools that provide both cooling and radiation shielding.",
             "It is stored in robust heavily shielded storage containers designed to contain radiation safely.",
-            "It is released into the atmosphere in controlled quantities.",
-            "It is dissolved in water and stored in large cooling towers."
+            "It is vitrified into glass blocks and immediately transferred to a deep geological repository.",
+            "It is kept inside the containment building in sealed fuel assemblies until its activity falls to safe levels."
         ],
         "correct": 1
     },
@@ -244,10 +244,10 @@
         "topic": "Waste",
         "question": "Why is the volume of high-level nuclear waste considered relatively small?",
         "answers": [
-            "Because most radioactive waste is released safely into the atmosphere.",
+            "Because reprocessing converts most spent fuel back into usable uranium and plutonium leaving very little residual waste.",
             "Because only a small amount of nuclear fuel is required to produce a very large amount of energy.",
-            "Because spent fuel rapidly decays into stable elements within a few weeks.",
-            "Because modern reactors recycle all radioactive waste on site."
+            "Because most of the radioactive fission products decay to stable isotopes within the reactor during operation.",
+            "Because the zircaloy cladding absorbs most fission products preventing them from contaminating the coolant."
         ],
         "correct": 1
     },
@@ -256,9 +256,9 @@
         "topic": "Safety",
         "question": "Why is the reactor containment building constructed with such thick reinforced shielding?",
         "answers": [
-            "To increase the pressure inside the reactor vessel.",
-            "To reduce the amount of uranium fuel required during operation.",
-            "To improve the efficiency of the reactor by reducing heat loss.",
+            "To maintain the high pressure needed inside the primary coolant circuit during normal operation.",
+            "To provide biological shielding for workers during routine refuelling and maintenance operations.",
+            "To improve the thermal efficiency of the reactor by reducing heat loss to the environment.",
             "To protect the reactor from external hazards and help contain radioactive material in the event of an accident."
         ],
         "correct": 3
@@ -269,9 +269,9 @@
         "question": "What is meant by defence in depth in the design of a nuclear reactor?",
         "answers": [
             "Using multiple independent safety barriers so that no single failure leads to the release of radioactive material.",
-            "Building several reactors at the same site so that power generation can continue during maintenance.",
-            "Installing duplicate turbines to improve electrical reliability.",
-            "Using thicker fuel rods to reduce the chance of fuel failure."
+            "Designing the reactor so that it automatically shuts down if coolant temperature exceeds a safe threshold.",
+            "Installing redundant coolant pumps so that core cooling is maintained if one pump fails.",
+            "Using passive safety systems that operate without electrical power in the event of an emergency."
         ],
         "correct": 0
     },
@@ -280,10 +280,10 @@
         "topic": "Safety",
         "question": "Why are refuelling operations carried out using strict procedures and multiple safety checks?",
         "answers": [
-            "To minimise the time the reactor is offline.",
-            "Because fuel assemblies are extremely expensive to manufacture.",
+            "To minimise the time the reactor is offline and reduce the economic cost of the outage.",
+            "Because the fuel assemblies must be repositioned precisely to maintain the correct neutron flux distribution.",
             "To reduce the risk of accidents and ensure the safe handling of radioactive materials.",
-            "To maximise the amount of fuel replaced during each outage."
+            "To ensure that the correct proportion of fuel assemblies is replaced to maintain reactor criticality."
         ],
         "correct": 2
     },
@@ -292,10 +292,10 @@
         "topic": "Fuel Cycle",
         "question": "How does fresh nuclear fuel arrive at a nuclear power station before it is loaded into the reactor?",
         "answers": [
-            "By rail in shielded wagons.",
-            "By cargo aircraft in reinforced containers.",
+            "By rail in shielded transport flasks designed to withstand accident conditions.",
+            "By sea in purpose-built vessels equipped with radiation monitoring systems.",
             "By road in specially designed transport containers.",
-            "By pipeline directly from the fuel processing plant."
+            "By rail or road depending on the location of the fuel fabrication facility."
         ],
         "correct": 2
     },
@@ -304,10 +304,10 @@
         "topic": "Fuel Cycle",
         "question": "Where is fresh fuel stored before it is loaded into the reactor core?",
         "answers": [
-            "In the spent fuel pool until required.",
+            "In the spent fuel pool alongside used assemblies until required.",
             "In dry protected storage before being transferred for loading.",
-            "Inside the containment building next to the reactor vessel.",
-            "In underground storage vaults beneath the reactor."
+            "Inside the containment building in a shielded vault adjacent to the reactor vessel.",
+            "In a water-filled storage pond to provide shielding and cooling prior to loading."
         ],
         "correct": 1
     },
@@ -316,10 +316,10 @@
         "topic": "Fuel Cycle",
         "question": "What happens to fuel assemblies during a routine reactor refuelling outage?",
         "answers": [
-            "All fuel assemblies are replaced with new ones.",
-            "The reactor is emptied completely before being refilled with fresh fuel.",
+            "All fuel assemblies are replaced with new ones to maximise reactor output during the next operating cycle.",
+            "The most depleted assemblies are moved to the core periphery while fresh assemblies are loaded at the centre.",
             "Only a proportion of the fuel assemblies are replaced while the remainder continue to be used.",
-            "Spent fuel is immediately transported to a permanent geological repository."
+            "Spent fuel assemblies are immediately reprocessed on site to recover unused fissile material."
         ],
         "correct": 2
     },
@@ -328,10 +328,10 @@
         "topic": "Big Picture",
         "question": "Why is nuclear power considered an efficient source of electricity compared with fossil fuels?",
         "answers": [
-            "It requires very little cooling water during operation.",
+            "It produces no waste products at all during normal operation.",
             "It can generate a large amount of electricity from a relatively small quantity of fuel.",
-            "Its turbines operate at much higher temperatures than fossil-fuel power stations.",
-            "It converts all of the energy released during fission into electricity."
+            "Its steam cycle operates at higher temperatures giving a greater thermodynamic efficiency.",
+            "It converts a greater proportion of the energy released into electricity than any other generating technology."
         ],
         "correct": 1
     },
@@ -340,10 +340,10 @@
         "topic": "Big Picture",
         "question": "Why do modern nuclear power stations use a pressurised water reactor design?",
         "answers": [
-            "Because the reactor vessel can operate without any coolant.",
-            "Because the design reduces the need for shielding around the reactor.",
+            "Because pressurising the coolant allows the reactor to operate at higher neutron flux and therefore higher power output.",
+            "Because the design eliminates the need for active safety systems by relying entirely on passive cooling.",
             "Because separate water circuits improve safety and reliability while preventing radioactive coolant reaching the turbine.",
-            "Because the reactor operates entirely using natural uranium without enrichment."
+            "Because pressurised water acts as a more effective moderator than graphite or heavy water."
         ],
         "correct": 2
     },
@@ -352,10 +352,10 @@
         "topic": "Big Picture",
         "question": "After watching this video, what is the main role of a nuclear power station?",
         "answers": [
-            "To produce radioactive materials for industrial and medical applications.",
+            "To sustain a controlled chain reaction that produces neutrons for use in industrial and medical applications.",
             "To convert nuclear energy into heat then into electrical energy.",
-            "To store radioactive waste safely for long-term disposal.",
-            "To produce steam directly through nuclear fusion."
+            "To demonstrate that nuclear fission can be harnessed safely as part of a low-carbon energy strategy.",
+            "To produce plutonium-239 as a by-product of uranium-238 irradiation for use in fuel reprocessing."
         ],
         "correct": 1
     }

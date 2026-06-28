@@ -11,6 +11,7 @@ export function renderStartScreen():void {
 
     //Create the section
     const startScreen: HTMLElement = document.createElement("section");
+    startScreen.classList.add("start-screen");
 
     //Create the heading
     const heading: HTMLHeadingElement = document.createElement("h1");
@@ -23,6 +24,7 @@ export function renderStartScreen():void {
 
     //Create a div for the label and textbox
     const nameDiv: HTMLElement = document.createElement("div");
+    nameDiv.classList.add("name-div")
 
     //Create the label
     const nameLabel: HTMLLabelElement = document.createElement("label");
@@ -56,7 +58,7 @@ export function renderStartScreen():void {
 
     function updateState(): void {
         state.studentName = nameBox.value.trim();
-        console.log("Quiz started:", state);
+        //console.log("Quiz started:", state);
         initializeQuiz();
     }
 

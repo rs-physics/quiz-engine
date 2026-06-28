@@ -10,6 +10,7 @@ export function renderQuestionScreen(): void {
 
     //Create the section
     const quizScreen: HTMLElement = document.createElement("section");
+    quizScreen.classList.add("quiz-card");
 
     //Create the Question Number
     const questionNo: HTMLHeadingElement = document.createElement("h1");
@@ -24,10 +25,11 @@ export function renderQuestionScreen(): void {
     //Create the Answer buttons
     for (let i = 0; i < 4; i++) {
         const div: HTMLDivElement = document.createElement("div");
+        div.classList.add("answer-div");
         const divButton: HTMLButtonElement = document.createElement("button");
         const divText: HTMLParagraphElement = document.createElement("p");
 
-        divButton.addEventListener("click", () => {
+        div.addEventListener("click", () => {
             selectAnswer(i);
         })
         divButton.innerText = select[i]!;
@@ -40,6 +42,7 @@ export function renderQuestionScreen(): void {
 
     //Create navigation buttons
     const div: HTMLDivElement = document.createElement("div");
+    div.classList.add("nav-div");
     const buttonPrevious: HTMLButtonElement = document.createElement("button");
     const buttonNext: HTMLButtonElement = document.createElement("button");
 
