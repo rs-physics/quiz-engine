@@ -1,8 +1,8 @@
 import { setQuestionBank, setConfig, } from "../state.js"
 
 export async function loadFiles(): Promise<void> {
-    const questionsPromise = fetch("/questions.json");
-    const configPromise = fetch("/config.json");
+    const questionsPromise = fetch("./questions.json");
+    const configPromise = fetch("./config.json");
 
     const questionsResponse = await questionsPromise;
     const configResponse = await configPromise;
