@@ -40,8 +40,8 @@
         "topic": "Fission",
         "question": "What particle must interact with a uranium-235 nucleus to initiate nuclear fission?",
         "answers": [
-            "A fast neutron produced by a previous fission event.",
-            "A thermal neutron that has been slowed down by the moderator.",
+            "A neutrino.",
+            "A proton.",
             "A neutron",
             "An alpha particle emitted by a neighbouring nucleus."
         ],
@@ -174,7 +174,7 @@
         "answers": [
             "The steam generator.",
             "The turbine.",
-            "The alternator (generator).",
+            "The alternator.",
             "The transformer."
         ],
         "correct": 2
