@@ -100,10 +100,10 @@
         "topic": "Reactor",
         "question": "What are the three engineered barriers that help prevent radioactive material escaping from the reactor?",
         "answers": [
-            "Fuel pellets reactor pressure vessel and cooling towers.",
-            "Fuel cladding reactor coolant system and containment building.",
-            "Fuel rods turbine casing and containment building.",
-            "Fuel assemblies steam generator and containment building."
+            "Fuel pellets, reactor pressure vessel and cooling towers.",
+            "Fuel cladding, reactor coolant system and containment building.",
+            "Fuel rods, turbine casing and containment building.",
+            "Fuel assemblies, steam generator and containment building."
         ],
         "correct": 1
     },
